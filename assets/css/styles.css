@@ -551,7 +551,6 @@ video {
 
 .a {
   color: var(--tw-prose-body);
-  max-width: 65ch;
 }
 
 .a :where(p):not(:where([class~="tw-not-prose"], [class~="tw-not-prose"] *)) {
@@ -1608,7 +1607,7 @@ video {
 
 .e {
   position: relative;
-  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 94%);
   --tw-aspect-w: 5;
 }
 
