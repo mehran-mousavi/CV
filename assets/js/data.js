@@ -97,9 +97,9 @@ const jobsList = [
 <br/><br/>
 <strong>Achievements:</strong><br/><br/>
 <ul>
-    <li>1: Successfully launched the platform, enabling users to effortlessly explore and book travel experiences.<br/></li>
-    <li>2: Improved platform performance and user satisfaction through continuous optimization and feature enhancements.<br/></li>
-    <li>3: Ensured seamless integration between front-end and back-end systems, providing a cohesive and reliable user experience.<br/></li>
+    <li style="margin-bottom: 5px;">1: Successfully launched the platform, enabling users to effortlessly explore and book travel experiences.<br/></li>
+    <li style="margin-bottom: 5px;">2: Improved platform performance and user satisfaction through continuous optimization and feature enhancements.<br/></li>
+    <li style="margin-bottom: 5px;">3: Ensured seamless integration between front-end and back-end systems, providing a cohesive and reliable user experience.<br/></li>
 </ul>
 <br/><br/>
 <span>
