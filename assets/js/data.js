@@ -5,16 +5,23 @@ const skills = [
   "C#",
   "ASP.NET Core",
   "Python",
+  "Django",
+  "FastAPI",
   "Node.js",
-  "React-js",
+  "Express",
+  "TypeScript",
+  "JavaScript",
+  "React",
   "Next.js",
-  "TypeScript & JavaScript",
-  "Html & Css (Tailwind, Bootstrap)",
+  "Html & Css",
+  "Tailwind",
+  "Bootstrap",
 
   // مهارت‌های معماری نرم‌افزار
   "Software Architecture",
   "Micro Service Architecture",
   "Service Oriented Architecture",
+  "RestFull & WebAPI",
   "DDD, EDA, CQRS",
 
   // مهارت‌های طراحی و توسعه
@@ -22,17 +29,19 @@ const skills = [
   "Design Patterns",
   "SOLID",
   "Clean Code",
-  "RestFull & WebAPI",
 
   // مهارت‌های پایگاه داده
-  "SQL",
-  "Entity Framework",
-  "MongoDB",
+  "TSQL (Sql Server & PostgreSql)",
+  "NoSQL (MongoDB, Couchbase, Cassandra)",
   "Redis",
-  "Rabbit-mq",
+  "Entity Framework",
+  "Rabbitmq & Kafka",
+  "gRPC",
+  "GraphQL",
 
   // مهارت‌های تست و نسخه‌سازی
   "Unit Testing",
+  "Integration Testing",
   "Git",
   "Docker",
 
@@ -40,8 +49,8 @@ const skills = [
   "Scrum & Agile",
 
   // مهارت‌های یادگیری ماشین و پردازش زبان طبیعی
-  "Machine Learning",
-  "NLP",
+  "AI & Machine Learning (Tensorflow, Pytorch)",
+  "NLP (SpaCy, NLTK, Hazm)",
 ];
 
 const details = [
@@ -72,7 +81,7 @@ const jobsList = [
     company: "jadooni.com",
     location: "Rasht, Iran",
     period: "Jan 2023 - Present",
-    type: "Startup Project",
+    type: "Co-Founder",
     description: `
 <span>
     As a Senior Full-stack Developer at <strong>jadooni.com</strong>, a dynamic startup in the tourism sector, I have been instrumental in developing a comprehensive online platform that allows users to search, browse, choose, and purchase unique travel experiences. In this role, I have single-handedly managed both the front-end and back-end development, ensuring a seamless and engaging user experience.
@@ -88,9 +97,9 @@ const jobsList = [
 <br/><br/>
 <strong>Achievements:</strong><br/><br/>
 <ul>
-    <li>1: Successfully launched the platform, enabling users to effortlessly explore and book travel experiences.</li>
-    <li>2: Improved platform performance and user satisfaction through continuous optimization and feature enhancements.</li>
-    <li>3: Ensured seamless integration between front-end and back-end systems, providing a cohesive and reliable user experience.</li>
+    <li>1: Successfully launched the platform, enabling users to effortlessly explore and book travel experiences.<br/></li>
+    <li>2: Improved platform performance and user satisfaction through continuous optimization and feature enhancements.<br/></li>
+    <li>3: Ensured seamless integration between front-end and back-end systems, providing a cohesive and reliable user experience.<br/></li>
 </ul>
 <br/><br/>
 <span>
@@ -251,44 +260,14 @@ const educationList = [
 // Projects
 const projectsList = [
   {
-    icon: "./assets/images/codecrafthub.jpg",
-    name: "CodeCraftHub",
-    category: "Developer Tools",
-    role: "Co-Founder",
-    date: "Jun 2021",
+    icon: "./assets/images/logo_jadooni.png",
+    name: "Jadooni.com (Online tourism experiences booking platform)",
+    category: "Tourism",
+    role: "Co-Founder & Full-stack Developer",
+    date: "Jan 2023 - Present",
     description:
-      "CodeCraftHub is a collaborative platform for developers, streamlining code review and project management. Enhance your team's productivity with our intuitive tools.",
-    website: "https://codecrafthub.com",
-  },
-  {
-    icon: "./assets/images/ecommerceboost.jpg",
-    name: "E-commerceBoost",
-    category: "E-commerce",
-    role: "Lead Developer",
-    date: "Dec 2022",
-    description:
-      "E-commerceBoost is a full-stack solution for online retailers, offering seamless inventory management, secure payment gateways, and a user-friendly shopping experience.",
-    website: "https://ecommerceboost.io",
-  },
-  {
-    icon: "./assets/images/cloudsnip.jpg",
-    name: "CloudSnip",
-    category: "Cloud Services",
-    role: "Technical Lead",
-    date: "May 2020",
-    description:
-      "CloudSnip is a versatile cloud storage service, providing users with secure file storage, sharing, and synchronization across devices. Experience the next level of cloud convenience.",
-    website: "https://cloudsnip.net",
-  },
-  {
-    icon: "./assets/images/healthtrackr.jpg",
-    name: "HealthTrackr",
-    category: "HealthTech",
-    role: "Founder",
-    date: "Oct 2023",
-    description:
-      "HealthTrackr revolutionizes personal health management, offering a comprehensive platform for tracking fitness, nutrition, and health metrics. Take control of your well-being.",
-    website: "https://healthtrackr.app",
+      "A dynamic online platform designed to offer unique and exciting tourism experiences. Users can explore and book a variety of adventures, from thrilling activities to cultural and culinary tours. The platform provides a seamless booking process, enabling users to plan and reserve their desired experiences online effortlessly.",
+    website: "https://jadooni.com",
   },
 ];
 
@@ -304,23 +283,5 @@ const posts = [
     title: "Building an Online Presence as a Full Stack Developer",
     excerpt:
       "Explore the importance of establishing a strong online presence for full stack developers. Learn how to create a compelling portfolio, engage with the developer community, and leverage social media to boost your career.",
-  },
-  {
-    date: "February 15, 2024",
-    title: "Navigating the Full Stack Developer Job Interview Maze",
-    excerpt:
-      "Prepare for success in your full stack developer job interviews. Uncover common interview questions, tips for showcasing your problem-solving skills, and strategies for handling technical assessments.",
-  },
-  {
-    date: "February 8, 2024",
-    title: "Mastering the Art of Full Stack Developer Cover Letters",
-    excerpt:
-      "Explore the art of writing compelling cover letters for full stack developer positions. Learn how to tailor your cover letter to showcase your technical prowess and demonstrate your passion for coding.",
-  },
-  {
-    date: "February 1, 2024",
-    title: "Crafting a Comprehensive Full Stack Developer Resume",
-    excerpt:
-      "Learn the essential elements to include in your full stack developer resume for a stand-out application. Nail down the perfect balance between showcasing skills and work experience.",
   },
 ];
