@@ -2181,6 +2181,10 @@ body {
   .hide-on-print {
     display: none;
   }
+
+  .p-margin-top {
+    --tw-aspect-w: 10 !important;
+  }
 }
 
 /* Add this to your styles.css if using custom styles */
