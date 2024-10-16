@@ -2182,3 +2182,35 @@ body {
     display: none;
   }
 }
+
+/* Add this to your styles.css if using custom styles */
+.bg-blue-200 {
+  background-color: #bfdbfe; /* Light blue */
+}
+.bg-green-200 {
+  background-color: #bbf7d0; /* Light green */
+}
+.bg-yellow-200 {
+  background-color: #fef08a; /* Light yellow */
+}
+.bg-red-200 {
+  background-color: #fecaca; /* Light red */
+}
+.bg-purple-200 {
+  background-color: #e9d5ff; /* Light purple */
+}
+.bg-orange-200 {
+  background-color: #ffedd5; /* Light orange */
+}
+.bg-teal-200 {
+  background-color: #cffafe; /* Light teal */
+}
+.bg-pink-200 {
+  background-color: #fbcfe8; /* Light pink */
+}
+.bg-indigo-200 {
+  background-color: #c7d2fe; /* Light indigo */
+}
+.bg-lime-200 {
+  background-color: #d9f99d; /* Light lime */
+}

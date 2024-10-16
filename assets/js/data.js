@@ -2,55 +2,68 @@
 
 const skills = [
   // مهارت‌های برنامه‌نویسی و فریم‌ورک‌ها
-  "C#",
-  "ASP.NET Core",
-  "Python",
-  "Django",
-  "FastAPI",
-  "Node.js",
-  "Express",
-  "TypeScript",
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Html & Css",
-  "Tailwind",
-  "Bootstrap",
+
+  // .NET Group
+  { name: "C#", category: "programming", group: "dotnet" },
+  { name: "ASP.NET Core", category: "programming", group: "dotnet" },
+  { name: "Entity Framework", category: "programming", group: "dotnet" },
+
+  // Python Group
+  { name: "Python", category: "programming", group: "python" },
+  { name: "Django", category: "programming", group: "python" },
+  { name: "FastAPI", category: "programming", group: "python" },
+
+  // Node.js Group
+  { name: "Node.js", category: "programming", group: "nodejs" },
+  { name: "Express", category: "programming", group: "nodejs" },
+
+  // Front-end Tools Group
+  { name: "JavaScript", category: "programming", group: "frontend" },
+  { name: "React", category: "programming", group: "frontend" },
+  { name: "Next.js", category: "programming", group: "frontend" },
+  { name: "TypeScript", category: "programming", group: "frontend" },
+  { name: "Html & Css", category: "programming", group: "frontend" },
+  { name: "Tailwind", category: "programming", group: "frontend" },
+  { name: "Bootstrap", category: "programming", group: "frontend" },
 
   // مهارت‌های معماری نرم‌افزار
-  "Software Architecture",
-  "Micro Service Architecture",
-  "Service Oriented Architecture",
-  "RestFull & WebAPI",
-  "DDD, EDA, CQRS",
+  { name: "Software Architecture", category: "architecture" },
+  { name: "Micro Service Architecture", category: "architecture" },
+  { name: "Service Oriented Architecture", category: "architecture" },
+  { name: "RestFull & WebAPI", category: "architecture" },
+  { name: "DDD, EDA, CQRS", category: "architecture" },
 
   // مهارت‌های طراحی و توسعه
-  "OOP",
-  "Design Patterns",
-  "SOLID",
-  "Clean Code",
+  { name: "OOP", category: "design" },
+  { name: "Design Patterns", category: "design" },
+  { name: "SOLID", category: "design" },
+  { name: "Clean Code", category: "design" },
 
   // مهارت‌های پایگاه داده
-  "TSQL (Sql Server & PostgreSql)",
-  "NoSQL (MongoDB, Couchbase, Cassandra)",
-  "Redis",
-  "Entity Framework",
-  "Rabbitmq & Kafka",
-  "gRPC",
-  "GraphQL",
+  { name: "TSQL", category: "database" },
+  { name: "Sql Server", category: "database" },
+  { name: "PostgreSql", category: "database" },
+  { name: "MongoDb", category: "database" },
+  { name: "Cassandra", category: "database" },
+  { name: "Redis", category: "database" },
+
+  { name: "Rabbitmq", category: "database", group: "nodejs" },
+  { name: "Kafka", category: "database", group: "nodejs" },
+  { name: "gRPC", category: "database", group: "nodejs" },
+  { name: "GraphQL", category: "database", group: "nodejs" },
 
   // مهارت‌های تست و نسخه‌سازی
-  "Unit Testing",
-  "Integration Testing",
-  "Git",
-  "Docker",
+  { name: "Docker", category: "devops" },
+  { name: "Unit Testing", category: "testing" },
+  { name: "Integration Testing", category: "testing" },
+  { name: "Git", category: "versioning" },
 
   // مهارت‌های مدیریت پروژه و روش‌های کاری
-  "Scrum & Agile",
+  { name: "Scrum & Agile", category: "management" },
 
   // مهارت‌های یادگیری ماشین و پردازش زبان طبیعی
-  "AI & Machine Learning (Tensorflow, Pytorch)",
-  "NLP (SpaCy, NLTK, Hazm)",
+  { name: "AI & Machine Learning (Tensorflow, Pytorch)", category: "ml" },
+  { name: "NLP (SpaCy, NLTK, Hazm)", category: "ml" },
 ];
 
 const details = [
@@ -81,7 +94,7 @@ const jobsList = [
     company: "jadooni.com",
     location: "Rasht, Iran",
     period: "Jan 2023 - Present",
-    type: "Co-Founder",
+    type: "Startup Co-Founder",
     description: `
 <span>
     As a Senior Full-stack Developer at <strong>jadooni.com</strong>, a dynamic startup in the tourism sector, I have been instrumental in developing a comprehensive online platform that allows users to search, browse, choose, and purchase unique travel experiences. In this role, I have single-handedly managed both the front-end and back-end development, ensuring a seamless and engaging user experience.
